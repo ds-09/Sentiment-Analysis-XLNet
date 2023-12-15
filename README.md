@@ -18,10 +18,11 @@ I have fine-tuned the XLNet model on the Kindle book review dataset to tailor it
 ## Usage
 
 1. Clone the repository:
-```bash
-git clone https://github.com/your-username/sentiment-analysis-xlnet.git
-cd sentiment-analysis-xlnet
+   ```bash
+   git clone https://github.com](https://github.com/ds-09/Sentiment-Analysis-XLNet
 
+2. Explore the jupyter notebooks.
+   
 ## Trained Model
 The final fine-tuned XLNet model is available in the trained_models/ directory. You can use this model to perform sentiment analysis on your own text data.
 
