@@ -22,6 +22,18 @@ I have fine-tuned the XLNet model on the Kindle book review dataset to tailor it
    git clone https://github.com](https://github.com/ds-09/Sentiment-Analysis-XLNet
 
 2. Explore the jupyter notebooks.
+
+3. To try out the trained model, use the flask application to access the endpoint.
+    - Install the required Python packages:
+      ```bash
+            pip install -r requirements.txt
+    - Run the Flask application:
+      ```bash
+            python app.py
+    - Open your web browser and navigate to `http://localhost:5000` to access the endpoint. Test the model using curl:
+      ```bash
+            curl -X POST -H "Content-Type: application/json" -d '{"text": "Your text goes here."}' http://localhost:5000/predict
+   Replace "Your text goes here." with the text you want to analyze. The server will respond with the predicted sentiment for the provided text.
    
 ## Trained Model
 The final fine-tuned XLNet model is available in the trained_models/ directory. You can use this model to perform sentiment analysis on your own text data.
